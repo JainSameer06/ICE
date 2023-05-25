@@ -1,0 +1,17 @@
+{
+    "dialog":
+    {
+        "naturalness":"Rate the response on a scale of 0 to 1 on the quality of sounding natural. Give a high score if the response seems like something a person would naturally say",
+        "coherence":"Rate the response on a scale of 0 to 1 on coherence. A response is coherent if it serves as a valid continuation of the preceding conversation. Coherent responses should receive high scores",
+        "engagingness":"Rate the response on a scale of 0 to 1 on engagingness. The score should be low if the response is dull and uninteresting. The score should be high if the response is interesting or presents an interesting fact",
+        "groundedness":"Rate the response on a scale of 0 to 1 on groundedness. Given the fact that this response is conditioned on, it should get a high score if the response uses that fact",
+        "understandability":"Rate the response on a scale of 0 to 1 on understandability. Give a high score if the response is understandable given the previous context"
+    },
+    "summarization":
+    {
+        "coherence":"Rate the summary of given text on a scale from 0 to 1 on coherence, with a higher value corresponding to higher coherence. Coherence is a collective quality of all sentences. To score highly on it, the summary should be well-structured and well-organized. It should not just be a heap of related information, but should build from sentence to sentence to form a coherent body of information about the topic.",
+        "consistency":"Consistency measures whether the details in the summary reproduce the facts present in the text accurately. Rate the summary of given text on a scale from 0 to 1 on consistency.",
+        "fluency":"Fluency measures the quality of individual sentences, and whether they are well-written and grammatically correct. Rate the summary of a given text on a scale of 0 to 1 on fluency",
+        "relevance":"Relevance is the quality of a summary to capture important information from a reference text. Rate the summary on a scale from 0 to 1 on relevance"
+    }
+}
